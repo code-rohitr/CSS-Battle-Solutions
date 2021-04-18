@@ -1,0 +1,54 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+
+
+
+<style>
+  div {
+    background: #fdc57b;
+  }
+  
+  .a{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+   .b{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  
+   .c{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
+  
+   .d{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #62374E;
+  }
+</style>
+
+

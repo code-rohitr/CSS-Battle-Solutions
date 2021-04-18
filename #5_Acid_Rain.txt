@@ -1,0 +1,62 @@
+
+<div left></div>
+<div mid></div>
+<div right></div>
+
+
+
+
+
+<style>
+  
+  div[left]{
+    height: 120px;
+    width: 120px;
+    background-color: #F3AC3C;
+    transform: translate(-50%, 50%);
+    	border-radius:  50% 0px 50% 50%;
+
+	z-index: 1;
+    position: absolute;
+
+  }
+  
+   div[mid]{
+    height: 120px;
+    width: 120px;
+    background-color: #998235;
+	border-radius:  50% 0px 50% 0px;
+    z-index: -2;
+    position: absolute;
+
+
+
+  }
+  
+   div[right]{
+    height: 120px;
+    width: 120px;
+    background-color: #F3AC3C;
+    transform: translate(50%, -50%);
+
+	border-radius: 50%;
+    z-index: -3;
+	position: absolute;
+
+
+  }
+  
+
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0B2429;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+ 	position: relative;
+  }
+</style>
+
+

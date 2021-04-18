@@ -1,0 +1,44 @@
+<div rec></div>
+<div big></div>
+<div small></div>
+<div cir></div>
+
+<style> 
+  div[rec]{
+    height: 150px;
+    width: 400px;
+    background-color: #4CAAB3;
+  }  
+  div[big]{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color:#222730;
+    transform: rotate(45deg);
+  }
+  div[small]{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: #4CAAB3;
+    transform: rotate(45deg);
+  }
+  div[cir]{
+    height: 50px;
+    width: 50px;
+    background-color: #393E46;
+    position: absolute;
+    border-radius: 100px;
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222730;
+	display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+</style>
+
+

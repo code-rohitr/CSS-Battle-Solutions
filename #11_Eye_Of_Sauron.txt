@@ -1,0 +1,75 @@
+<div c1></div>
+<div c2></div>
+<div c3></div>
+<div r1></div>
+<div r2></div>
+<div l1></div>
+<div l2></div>
+
+
+<style> 
+  div[c1]{
+    height: 140px;
+    width: 140px;
+    background-color: #ECA03D;
+    border-radius: 100px;
+	position:absolute;
+  }  
+  div[c2]{
+    height: 100px;
+    width: 100px;
+    background-color: #191210;
+	position:absolute;
+	border-radius: 100px;
+  }
+  div[c3]{
+    height: 50px;
+    width: 50px;
+    background-color: #84271C;
+	position:absolute;
+	border-radius: 100px;
+  }
+  
+  div[r1]{
+    height: 50px;
+    width: 100px;
+    background-color: #ECA03D;
+    position: absolute;
+    transform: translate(100%, -50%);
+    border-radius: 100px 100px 0px 0px;
+  }
+    div[r2]{
+    height: 60px;
+    width: 60px;
+    background-color: #191210;
+    position: absolute;
+    transform: translateX(100px);
+    border-radius: 100%
+  }
+    div[l1]{
+    height: 50px;
+    width: 100px;
+    background-color: #ECA03D;
+    position: absolute;
+    transform: translate(-100%, 50%);
+    border-radius: 0px 0px 100px 100px;
+  }
+    div[l2]{
+    height: 60px;
+    width: 60px;
+    background-color: #191210;
+    position: absolute;
+    transform: translateX(-100px);
+    border-radius: 100%
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #191210;
+	display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+</style>
+
+

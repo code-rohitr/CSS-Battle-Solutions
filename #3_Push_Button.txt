@@ -1,0 +1,57 @@
+
+<div square></div>
+<div large-circle></div>
+<div small-circle></div>
+<div inc></div>
+
+
+
+
+<style>
+  
+  div[square]{
+    background-color: #243D83;
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    z-index: -4;
+    
+  }
+  
+  div[large-circle]{
+    background-color: #6592CF;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  
+  div[small-circle]{
+    height: 150px;
+    width: 150px;
+    background-color: #243D83;
+    position: absolute;
+    border-radius:50%;
+  }
+  
+  div[inc]{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #EEB850;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #6592CF;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+ 	position: relative;
+  }
+</style>
+
+

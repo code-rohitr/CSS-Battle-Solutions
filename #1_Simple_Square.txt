@@ -1,0 +1,14 @@
+<div></div>
+<style>
+  div {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;  
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #5d3a3a;
+  }
+</style>

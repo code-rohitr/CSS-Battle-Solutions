@@ -1,0 +1,94 @@
+<div stick1></div>
+<div stick2></div>
+<div stick3></div>
+<div stick4></div>
+<div stick5></div>
+<div stick6></div>
+<div stick7></div>
+<div circle></div>
+<div handle></div>
+
+<style> 
+  div[stick1]{
+    height: 110px;
+    width: 20px;
+    background-color: #060F55;
+    top: 50px;
+    transform: translateY(-45px);
+    border-radius: 50px;
+  }  
+    div[stick2]{
+    height: 110px;
+    width: 20px;
+    background-color: #6592CF;
+    top: 50px;
+    transform: translateY(-45px);
+    border-radius: 50px;
+  } 
+    div[stick3]{
+    height: 110px;
+    width: 20px;
+    background-color: #060F55;
+    top: 50px;
+	transform: translateY(-45px);
+	border-radius: 50px;
+  }
+    div[stick4]{
+    height: 110px;
+    width: 20px;
+    background-color: #6592CF;
+    top: 50px;
+	transform: translateY(-45px);
+	border-radius: 50px;
+  }
+    div[stick5]{
+    height: 110px;
+    width: 20px;
+    background-color: #060F55;
+    top: 50px;
+	transform: translateY(-45px);
+	border-radius: 50px;
+  }
+    div[stick6]{
+    height: 110px;
+    width: 20px;
+    background-color: #6592CF;
+    top: 50px;
+	transform: translateY(-45px);
+	border-radius: 50px;
+  }
+    div[stick7]{
+    height: 110px;
+    width: 20px;
+    background-color: #060F55;
+    top: 50px;
+	transform: translateY(-45px);
+	border-radius: 50px;
+  }
+  div[circle]{
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    background-color: #060F55;
+    z-index: -5;
+    transform: translateY(30px);
+    border-radius: 0px 0px 50% 50%;
+  }
+  div[handle]{
+    height: 110px;
+    width: 20px;
+    position: absolute;
+    background-color: #060F55;
+    transform:translateY(90%);
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #6592CF;
+	display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+</style>
+
+

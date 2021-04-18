@@ -1,0 +1,85 @@
+
+<div c1></div>
+<div c2></div>
+<div c3></div>
+<div s1></div>
+<div s2></div>
+<div s3></div>
+<div es1></div>
+<div es3></div>
+
+<style> 
+  div[c1]{
+    height: 50px;
+    width: 100px;
+    background-color: #D86F45;
+    border-radius: 0px 0px 100px 100px;
+    transform: translate(20px, 50%);
+  }
+    div[c2]{
+    height: 50px;
+    width: 100px;
+    background-color: #D86F45;
+    border-radius: 100px 100px 0px 0px;
+	transform: translate(0px, -50%);
+
+  }  div[c3]{
+    height: 50px;
+    width: 100px;
+    background-color: #D86F45;
+    border-radius: 0px 0px 100px 100px;
+	transform: translate(-20px, 50%);
+  }
+  div[s1]{
+    height: 60px;
+    width: 60px;
+    background-color: #F5D6B4;
+    border-radius: 100px;
+    position:absolute;
+  }
+    div[s2]{
+    height: 60px;
+    width: 60px;
+    background-color: #F5D6B4;
+    border-radius: 100px;
+    position:absolute;
+    transform: translateX(80px);
+  }
+    div[s3]{
+    height: 60px;
+    width: 60px;
+    background-color: #F5D6B4;
+    border-radius: 100px;
+    position:absolute;
+	transform: translateX(-80px);
+
+  }
+  
+  div[es1]{
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #D86F45;
+    border-radius: 20px;
+    transform: translateX(-120px); 
+  }
+  div[es3]{
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #D86F45;
+    border-radius: 20px;
+    transform: translateX(120px); 
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5D6B4;
+	display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+</style>
+
+

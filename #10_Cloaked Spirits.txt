@@ -1,0 +1,89 @@
+<div l1></div>
+<div l2></div>
+<div l3></div>
+<div c1></div>
+<div c2></div>
+<div c3></div>
+<div s1></div>
+<div s2></div>
+<div s3></div>
+<style> 
+  div[l1]{
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+    transform:translateY(100%);
+  }  
+    div[l2]{
+    height: 250px;
+    width: 100px;
+    background-color: #F7EC7D;
+	transform:translateY(10%);
+	border-radius: 50px 50px 0px 0px;
+  }
+    div[l3]{
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+    transform:translateY(100%);
+  }
+  div[c1]{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: #E38F66;
+    border-radius: 100px;
+    transform: translateY(-50%);
+  }
+    div[c2]{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: #AA445F;
+    border-radius: 100px;
+    transform: translate(-100%, 50%);
+  }
+    div[c3]{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: #AA445F;
+    border-radius: 100px;
+    transform: translate(100%, 50%);
+  }
+  div[s1]{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: #AA445F;
+    border-radius: 100px;
+    transform: translateY(-83%);
+  }
+  div[s2]{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: #E38F66;
+    border-radius: 100px;
+    transform: translate(-167%, 83%);
+  }
+  div[s3]{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: #E38F66;
+    border-radius: 100px;
+    transform: translate(166%, 83%);
+  }
+ 
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #62306D;
+	display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+</style>
+
+

@@ -1,0 +1,51 @@
+
+<div left></div>
+<div mid></div>
+<div right></div>
+
+
+
+
+
+<style>
+  
+  div[left]{
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+    transform: translateY(50%);
+    border-radius: 0px 0 50% 50%;
+  }
+  
+   div[mid]{
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+	transform: translateY(-50%);
+	border-radius:  50% 50% 0px 0;
+
+  }
+  
+   div[right]{
+    height: 100px;
+    width: 100px;
+    background-color: #F7EC7D;
+    transform: translateY(50%);
+	border-radius: 0px 0 50% 50%;
+
+  }
+  
+
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #62306D;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+ 	position: relative;
+  }
+</style>
+
+
